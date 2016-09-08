@@ -1,0 +1,44 @@
+{
+  "name": "wifi-password-cli",
+  "version": "0.0.0",
+  "description": "Get current wifi password",
+  "license": "MIT",
+  "repository": "kevva/wifi-password-cli",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "wifi-password": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "app",
+    "cli-app",
+    "cli",
+    "network",
+    "password",
+    "wifi"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "wifi-password": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
