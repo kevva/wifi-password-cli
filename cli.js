@@ -7,6 +7,7 @@ const cli = meow(`
 	Usage
 	  $ wifi-password [network-name]
 
+	Example
 	  $ wifi-password
 	  unicorns
 	  $ wifi-password foo-network
